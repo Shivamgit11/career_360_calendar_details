@@ -1,9 +1,13 @@
 import React from 'react';
+import CalendarComponent from './components/CalendarComponent';
 
 function App() {
   return (
     <div className="App">
-      <h1>Event Analytics Dashboard</h1>
+      <h1 style={{
+        textAlign: "center"
+      }}>Event Analytics Dashboard</h1>
+      <CalendarComponent />
     </div>
   );
 }
